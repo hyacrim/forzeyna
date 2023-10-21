@@ -93,8 +93,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fonction pour générer un message WhatsApp avec les noms et âges des enfants
     function generateWhatsAppMessage(children, girlName, boyName) {
         let whatsappMessage = `🎉 *Félicitations* à *Mr ${boyName}* et *Mme ${girlName}* ! 👩‍❤️‍👨\n`;
-        whatsappMessage += `🍼 *Vous serez bientôt les heureux parents de ${children.length} adorables petits anges.* 👨‍👩‍👧‍👦\n`;
-        whatsappMessage += `*Voici les noms de vos futurs trésors* :`;
+        whatsappMessage += `🍼 *Vous serez bientôt les heureux parents de ${children.length} adorables petits anges .* 👨‍👩‍👧‍👦\n`;
+        whatsappMessage += `*Voici les noms de vos futurs trésors à 50 ans* :`;
 
         // Crée une liste de noms et d'âges des enfants pour WhatsApp
         whatsappMessage += `\n`;
